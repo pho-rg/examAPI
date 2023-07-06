@@ -31,7 +31,7 @@ mkdir routes controllers models
 On en profite pour mettre un .gitignore sur le dossier node_modules
 
 **Q5**
-Express est un framework de Node JS qui fournit les méthodes et fonctions utiles à la création d'applications web et mobile mais aussi à la création d'API.
+Express est un framework de Node JS qui fournit les méthodes et fonctions utiles à la création d'applications web et mobile mais aussi à la création d'API. Nous pouvons faire des application web avec une connexion à une base de données (relationnelle comme mariadb ou non relationnelle comme mongoose), développer une API ou encore une application web gérant un commerce en ligne.
 
 **Q6**
 
