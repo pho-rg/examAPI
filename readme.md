@@ -23,6 +23,12 @@ touch index.js //ajout de notre point d'entrée de l'API
 Node JS (pour JavaScript) est un ensemble d'outils et de packages faisant de lui un environnement pour le développement d'applications web. Une fois en place, cet environnement facilite la gestion des packages, les dépendances, le lancements d'instances web et la cohabitation des requêtes passées. Il nous permet de construire des applications web, dans notre répertoire de travail c'est aussi grace a Node JS que nous gérons les packages, et paramètrons les scripts pour lancer le projet. Un exemple d'outil est npm 'Node Package Manager' qui permet d'installer, mettre à jour et auditer les packages utilisés dans notre environnement. Un exemple de code 'npm install -D nodemon' permet d'installer nodemon qui, une fois le script paramétré dans le package.json, relance l'application à chaque modification du code source.
 
 **Q4**
+Nous avons installé express via la commande 'npm install express'. Le premier changement est l'apparition du repertoire 'node_modules'. Dans le package.json, nous avons la dépendance 'express' qui est apparu et son numero de version. Allant de paire avec l'installation, nous avons fait usage de plusieurs bonnes pratiques : la création des répertoires routes, controllers et models. Le fichier index.js (que l'on peut renommer app.js) qui est notre point d'entrée s'est vu recevoir la base (cf repo git commit 'question 4'). Nous avons installé le package body-parser qui sera utile plus tard pour parser les json renvoyés.
+npm install express
+npm install body-parser
+mkdir routes controllers models
+
+On en profite pour mettre un .gitignore sur le dossier node_modules
 
 **Q5**
 Express est un framework de Node JS qui fournit les méthodes et fonctions utiles à la création d'applications web et mobile mais aussi à la création d'API.
