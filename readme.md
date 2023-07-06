@@ -1,4 +1,4 @@
-###Exam du 06 juillet 2023
+### Exam du 06 juillet 2023
 
 > Pierre-Henry dOrglandes
 
@@ -49,6 +49,13 @@ Une promise est un procédé qui admet que la valeur de l'élément en question 
 Fait en question 3 pour exemple (rappel : npm install -D nodemon puis modification du package.json). C'est une dépendance permettant  de relancer l'instance web quand une modification sur le code est faite (detection de la sauvegarde). Cela diffère d'express car c'est un package à part entière : ils sont tous les deux indépendant. Nodemon est un utilitaire de surveillance des fichiers quand Express est un framework de création d'application.
 
 **Q11**
+Le traitement d'erreur peut être géré directement dans le middleware avec express. Plutot que d'avoir trois argument (req, res, next) nous en avons quatre (err, req, res, next). Reprenons l'exemple de la documentation d'express :
+
+
+app.use(function(err, req, res, next) {
+  console.error(err.stack);
+  res.status(500).send('Something broke!');
+});
 
 **Q12**
 
