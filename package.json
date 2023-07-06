@@ -1,0 +1,20 @@
+{
+  "name": "controle",
+  "version": "1.0.0",
+  "description": "examAPI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pho-rg/examAPI.git"
+  },
+  "author": "ph",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pho-rg/examAPI/issues"
+  },
+  "homepage": "https://github.com/pho-rg/examAPI#readme"
+}
