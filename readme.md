@@ -40,6 +40,7 @@ Deux notions importantes d'express lors de la création d'API : les routes et le
 API pour Application Programming Interface. C'est une architecture orientée services deployée sur une application web. L'acronyme REST (Representational State Transfer) fait référence à un standard de développement auquel il est conseillé de respecter pour une application évolutive et interopérable. Derrière ce nom REST se cache 5 notions : 1Everything is a ressource (texte, image, lien) 2Une ressource possède un identifier unique 3Utiliser une interface simple et uniformisée 4Une requete est modélisée 5Be stateless (requetes indépendante et non nécessité de mémorisation d'une requete précédente pour faire la suivante)
 
 **Q8**
+Fait, cf le repo git commit 'question 8 9 & 10'
 
 **Q9**
 Une promise est un procédé qui admet que la valeur de l'élément en question peut ne pas être encore connu ou définitif. Une promise introduit alors la notion d'asynchrone. De ce fait une promise se caractérise par un état (pending, fulfilled ou rejected).
